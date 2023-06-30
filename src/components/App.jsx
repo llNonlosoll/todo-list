@@ -1,16 +1,14 @@
+import { Layout } from './LayoutComponent/Layout';
+import { AppBar } from './AppBarComponent/AppBar';
+import { TaskForm } from './TaskFormComponent/TaskForm';
+import { TaskList } from './TaskListComponent/TaskList';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Layout>
+      <AppBar />
+      <TaskForm />
+      <TaskList />
+    </Layout>
   );
 };
