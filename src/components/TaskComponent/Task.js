@@ -1,7 +1,7 @@
 // Імпортуємо хук
 import { useDispatch } from 'react-redux';
 // Імпортуємо генератор екшену
-import { deleteTask, toggleCompleted } from 'redux/actions';
+import { deleteTask, toggleCompleted } from 'redux/tasksSlice';
 // Імпортуємо MdClose icon
 import { MdClose } from 'react-icons/md';
 // Імпортуємо стилі

@@ -1,7 +1,7 @@
 // Імпортуємо хук
 import { useDispatch } from 'react-redux';
 // Імпортуємо генератор екшену
-import { addTask } from 'redux/actions';
+import { addTask } from 'redux/tasksSlice';
 // Імпортуємо компонент
 import { Button } from 'components/ButtonComponent/Button';
 // Імпортуємо стилі
